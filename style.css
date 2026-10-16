@@ -8,3 +8,102 @@
 }
 
 /* START BELOW */
+
+/* === GLOBAL STYLES === */
+body {
+  font-family: Arial, sans-serif;
+  color: #292820;
+  background-color: #F8F5EF;
+  line-height: 1.6;
+}
+
+/* === NAVIGATION === */
+.site-header {
+  background-color: #F8F5EF;
+  padding: 24px 6%;
+  border-bottom: 1px solid #E5DED2;
+}
+
+
+.site-header a {
+  color: #292820;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* === HERO SECTION === */
+.hero {
+  padding: 100px 8%;
+  background-color: #EAE4D7;
+  min-height: 420px;
+}
+
+.hero p:first-child {
+  color: #8B6548;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  max-width: 850px;
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.15;
+  margin: 20px 0;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 18px;
+  color: #514D43;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #8B6548;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* === NAVIGATION LAYOUT FIX === */
+.site-header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-header nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.site-header nav ul a {
+  text-decoration: none;
+  color: #292820;
+  margin: 0;
+}
+
+/* === BRAND NAME === */
+.site-header nav > a {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #292820;
+  text-decoration: none;
+  margin: 0;
+}
