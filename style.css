@@ -33,7 +33,7 @@ body {
 
 /* === HERO SECTION === */
 .hero {
-  padding: 100px 8%;
+  padding: 70px 6%;
   background-color: #EAE4D7;
   min-height: 420px;
 }
@@ -251,3 +251,131 @@ body {
   line-height: 1.7;
 }
 
+/* Recommended Products Section */
+.recommended-products {
+    background-color: #e9e3d8;
+    padding: 48px 6%;
+    margin-top: 40px;
+}
+
+.recommended-heading {
+    margin-bottom: 28px;
+}
+
+.recommended-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.recommended-heading p {
+    color: #5c5a54;
+    font-size: 14px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.product-card {
+    min-width: 0;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-color: #f5f2ec;
+}
+
+.product-card h3 {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+.product-card a {
+    color: #a63c2b;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.products-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    border: 1px solid #6b777b;
+    color: #394b56;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* About the Brand Section */
+.about-brand {
+    background-color: #3e4d57;
+    color: #f5f2ec;
+    text-align: center;
+    padding: 64px 8%;
+    margin-top: -80px;
+}
+
+.about-brand h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-brand p {
+    max-width: 460px;
+    margin: 0 auto 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #e4e2dc;
+}
+
+.about-brand-button {
+    display: inline-block;
+    background-color: #f5f2ec;
+    color: #3e4d57;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.about-brand-button:hover {
+    opacity: 0.85;
+}
+.hero-video {
+  width: 100%;
+  max-width: 340px;
+  justify-self: end;
+  align-self: center;
+  overflow: hidden;
+  margin-top: -170px;
+}
+
+.hero-video video {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.hero-video video {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
