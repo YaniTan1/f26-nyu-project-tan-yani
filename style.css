@@ -107,3 +107,147 @@ body {
   text-decoration: none;
   margin: 0;
 }
+
+/* Featured Heritage Section */
+.featured {
+  padding: 64px 6%;
+}
+
+.featured .eyebrow {
+  color: #9b704d;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.featured h2 {
+  font-size: 36px;
+  color: #35271f;
+  margin: 0 0 16px;
+}
+
+.featured > p {
+  color: #75685e;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.heritage-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+@media (max-width: 700px) {
+  .heritage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.heritage-card a {
+  display: inline-block;
+  margin: 0 20px 20px;
+  color: #8b5e3c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.heritage-card a:hover {
+  text-decoration: underline;
+}
+
+/* Refined heritage cards */
+.heritage-card {
+  overflow: hidden;
+  background-color: #f1e9de;
+  border-radius: 12px;
+  padding-bottom: 8px;
+}
+
+.heritage-card h3 {
+  margin: 16px 20px 8px;
+  line-height: 1.4;
+}
+
+.heritage-card p {
+  margin: 0 20px 12px;
+  line-height: 1.7;
+}
+
+#featured {
+  padding-bottom: 72px;
+}
+
+/* Discover, Learn, and Preserve */
+.how-it-works {
+  padding: 72px 6%;
+  margin-top: 0;
+}
+
+.how-it-works .eyebrow {
+  margin-bottom: 12px;
+}
+
+.how-it-works h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  color: #35271f;
+}
+
+.how-it-works > p {
+  line-height: 1.7;
+  color: #75685e;
+}
+
+/* China Map */
+
+/* China Map */
+.china-map {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 32px auto 24px;
+  padding: 24px;
+  background-color: #f1e9de;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.map-image {
+  flex: 0 0 65%;
+  min-width: 0;
+}
+
+.map-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.map-description {
+  flex: 1;
+}
+
+.map-description h2 {
+  margin: 12px 0;
+  color: #38291f;
+  font-size: 28px;
+}
+
+.map-description p {
+  line-height: 1.7;
+}
+
