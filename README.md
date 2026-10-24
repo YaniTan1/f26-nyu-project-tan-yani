@@ -95,6 +95,8 @@ The Featured Heritage cards are generated dynamically from an array of heritage 
 
 ### Project Preview
 
+https://github.com/YaniTan1/f26-nyu-project-tan-yani
+
 ### Weekly Update
 
 Implemented dynamic Featured Heritage cards using JavaScript and integrated them into the existing website layout.
