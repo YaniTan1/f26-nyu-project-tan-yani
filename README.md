@@ -100,3 +100,17 @@ https://github.com/YaniTan1/f26-nyu-project-tan-yani
 ### Weekly Update
 
 Implemented dynamic Featured Heritage cards using JavaScript and integrated them into the existing website layout.
+
+## Structure Audit — October 26, 2026
+
+**Fixed today:**
+- Added CSS custom properties in `:root` for colors and font-family.
+- Updated the body styles to use CSS variables.
+- Updated the site header background color to use a CSS variable.
+
+**Still missing (building before the layout assignment):**
+- [ ] Verify all navigation links point to existing section IDs.
+- [ ] Compare all page sections against the mockup.
+
+**One thing I couldn't figure out:**
+- Whether all CSS styles and JavaScript functionality work correctly in the browser.
