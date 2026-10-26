@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #292820;
+  --background-color: #F8F5EF;
+  --text-color: #292820;
+  --font-family: Arial, sans-serif;
+}
+
+/* === RESET === */
 /* === RESET === */
 *,
 *::before,
@@ -11,15 +19,15 @@
 
 /* === GLOBAL STYLES === */
 body {
-  font-family: Arial, sans-serif;
-  color: #292820;
-  background-color: #F8F5EF;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
   line-height: 1.6;
 }
 
 /* === NAVIGATION === */
 .site-header {
-  background-color: #F8F5EF;
+ background-color: var(--background-color);
   padding: 24px 6%;
   border-bottom: 1px solid #E5DED2;
 }
