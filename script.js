@@ -25,8 +25,8 @@ const heritageItems = [
     title: "Traditional Woodwork",
     description:
       "Explore traditional Chinese woodworking through intricate carving and skilled craftsmanship.",
-    imageUrl: "images/木作.png",
-    imageAlt: "Traditional Chinese woodwork"
+imageUrl: "images/woodwork.png",
+      imageAlt: "Traditional Chinese woodwork"
   }
 ];
 
