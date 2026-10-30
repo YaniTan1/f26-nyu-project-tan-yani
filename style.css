@@ -1,3 +1,21 @@
+
+/* ==========================================
+   LAYOUT PLAN
+
+   Two-dimensional (CSS Grid):
+   - Hero section: text and image side by side
+   - Explore by Region: map and description
+   - Featured Traditions: heritage cards in columns
+
+   One-dimensional (Flexbox / Normal Flow):
+   - Navigation: logo and menu links
+   - Text content: headings and paragraphs
+   - Buttons and links: aligned in rows
+
+   Responsive:
+   - Cards stack on mobile and form columns on desktop
+   ========================================== */
+
 :root {
   --primary-color: #292820;
   --background-color: #F8F5EF;
