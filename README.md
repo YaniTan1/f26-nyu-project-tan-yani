@@ -114,3 +114,19 @@ Implemented dynamic Featured Heritage cards using JavaScript and integrated them
 
 **One thing I couldn't figure out:**
 - Whether all CSS styles and JavaScript functionality work correctly in the browser.
+
+---
+
+# Weekly Project Update
+
+## 1. Assignment 4 Mockup
+
+[View My Mockup](PASTE YOUR MOCKUP LINK HERE)
+
+## 2. Challenges
+
+One of the main challenges I encountered was dynamically displaying multiple cultural heritage items using JavaScript arrays. I also faced some issues with image file paths and JavaScript syntax when adding new heritage cards. I resolved these issues by checking the array structure, correcting the image paths, and testing the website in the browser.
+
+## 3. Plans for Next Week
+
+Next week, I plan to improve the website layout using CSS Grid and Flexbox. I will focus on organizing the hero section, featured heritage cards, and navigation. I also plan to add responsive design using media queries to make the website work well on both desktop and mobile screens.
