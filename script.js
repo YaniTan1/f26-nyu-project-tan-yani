@@ -28,6 +28,20 @@ const heritageItems = [
 imageUrl: "images/woodwork.png",
       imageAlt: "Traditional Chinese woodwork"
   }
+    {
+    title: "Cashmere Felt",
+    description:
+      "Discover the traditional craft of transforming soft cashmere fibers into beautiful felted textiles.",
+    imageUrl: "images/cashmere-felt.png",
+    imageAlt: "Traditional cashmere felt craftsmanship"
+  },
+  {
+    title: "Leather Weaving",
+    description:
+      "Explore the art of weaving leather strips into intricate patterns and handcrafted objects.",
+    imageUrl: "images/leather-weaving.png",
+    imageAlt: "Traditional leather weaving craftsmanship"
+  }
 ];
 
 // Find the Featured Heritage container
