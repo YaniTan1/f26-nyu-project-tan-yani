@@ -21,6 +21,13 @@ const heritageItems = [
     imageUrl: "images/竹丝扣瓷bamboo-porcelain.png",
     imageAlt: "Bamboo filament craftsmanship"
   },
+    {
+    title: "Traditional Woodwork",
+    description:
+      "Explore traditional Chinese woodworking through intricate carving and skilled craftsmanship.",
+    imageUrl: "images/木作.png",
+    imageAlt: "Traditional Chinese woodwork"
+  }
 ];
 
 // Find the Featured Heritage container
@@ -60,10 +67,4 @@ if (container) {
     // Add the completed card to the page
     container.appendChild(card);
   });
-}
-{
-  name: "Traditional Woodwork",
-  category: "Woodcraft",
-  description: "A traditional craft featuring skilled woodworking, carving, and intricate joinery.",
-  image: "images/木作.png"
 }
