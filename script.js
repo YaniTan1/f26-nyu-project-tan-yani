@@ -61,3 +61,9 @@ if (container) {
     container.appendChild(card);
   });
 }
+{
+  name: "Traditional Woodwork",
+  category: "Woodcraft",
+  description: "A traditional craft featuring skilled woodworking, carving, and intricate joinery.",
+  image: "images/木作.png"
+}
