@@ -27,7 +27,7 @@ const heritageItems = [
       "Explore traditional Chinese woodworking through intricate carving and skilled craftsmanship.",
 imageUrl: "images/woodwork.png",
       imageAlt: "Traditional Chinese woodwork"
-  }
+  },
     {
     title: "Cashmere Felt",
     description:
