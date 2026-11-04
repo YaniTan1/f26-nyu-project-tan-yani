@@ -471,3 +471,36 @@ nav ul {
     flex-wrap: wrap;
   }
 }
+/* === MOBILE MAP RESPONSIVE FIX === */
+
+@media (max-width: 700px) {
+  .china-map {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .map-image {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .map-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .map-description {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .map-description h2 {
+    font-size: 28px;
+  }
+}
