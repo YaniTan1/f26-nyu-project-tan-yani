@@ -47,6 +47,8 @@ imageUrl: "images/woodwork.png",
 // Find the Featured Heritage container
 const container = document.getElementById("heritage-grid");
 
+// openCardTitle: visitors need to know which craft details are currently open
+let openCardTitle = null;
 
 if (container) {
   heritageItems.forEach((item) => {
