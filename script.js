@@ -82,3 +82,4 @@ if (container) {
     container.appendChild(card);
   });
 }
+console.log("script.js is connected");
