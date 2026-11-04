@@ -451,3 +451,23 @@ body {
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
+/* === MOBILE RESPONSIVE FIX === */
+
+nav ul {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content,
+  .hero-video {
+    grid-column: 1;
+  }
+
+  .site-header {
+    flex-wrap: wrap;
+  }
+}
