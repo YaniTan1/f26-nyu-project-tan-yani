@@ -1,3 +1,36 @@
+# Vanishing Threads
+
+**Latest mockups:** [Figma Mockup – Yani Landing Page](https://www.figma.com/design/KR0OYnEHbRUQ1xuHfMJZdL/Yani_LandingPage?node-id=12-2&t=T86vecYaf8VmsiIl-1)
+
+**Live site:** https://yanitan1.github.io/f26-nyu-project-tan-yani/
+
+## Project Log
+
+### Week 8 — November 4, 2026
+
+**State Plan**
+
+- **User story:** As a visitor, I want to click Learn More on a heritage card so that I can discover more information about each traditional craft.
+- **What does the page remember?** Whether the additional information is visible or hidden.
+- **What does it start at?** Hidden (false).
+- **What changes it?** The user clicks the Learn More button.
+- **What does the user see?** Additional information appears or disappears.
+- **What does the if/else decide?** If the information is hidden, show it. Otherwise, hide it.
+
+**What changed:**
+
+**What was hard, and what I tried:**
+
+**What happened when I tried to break it:**
+
+**What I learned or changed my mind about:**
+
+**Question for Joey:**
+
+**Next week's goal:**
+
+**AI use:**
+
 ## **Instructions**
 
 ### **Step-by-Step: Getting Set Up**
@@ -121,7 +154,7 @@ Implemented dynamic Featured Heritage cards using JavaScript and integrated them
 
 ## 1. Assignment 4 Mockup
 
-[View My Mockup](PASTE YOUR MOCKUP LINK HERE)
+[Figma Mockup – Yani Landing Page](https://www.figma.com/design/KR0OYnEHbRUQ1xuHfMJZdL/Yani_LandingPage?node-id=12-2&t=T86vecYaf8VmsiIl-1)
 
 ## 2. Challenges
 
