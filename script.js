@@ -66,7 +66,27 @@ if (container) {
     description.classList.add("is-hidden");
     link.textContent = "Learn More";
     link.href = "#about";
+link.addEventListener("click", (event) => {
+  event.preventDefault();
 
+  if (openCardTitle === item.title) {
+    description.classList.add("is-hidden");
+    openCardTitle = null;
+    link.textContent = "Learn More";
+  } else {
+    document.querySelectorAll(".heritage-card p").forEach((paragraph) => {
+      paragraph.classList.add("is-hidden");
+    });
+
+    document.querySelectorAll(".heritage-card a").forEach((cardLink) => {
+      cardLink.textContent = "Learn More";
+    });
+
+    description.classList.remove("is-hidden");
+    openCardTitle = item.title;
+    link.textContent = "Show Less";
+  }
+});
     // Add an image when a path is available
     if (item.imageUrl) {
       const image = document.createElement("img");
