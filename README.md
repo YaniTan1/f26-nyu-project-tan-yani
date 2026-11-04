@@ -130,3 +130,7 @@ One of the main challenges I encountered was dynamically displaying multiple cul
 ## 3. Plans for Next Week
 
 Next week, I plan to improve the website layout using CSS Grid and Flexbox. I will focus on organizing the hero section, featured heritage cards, and navigation. I also plan to add responsive design using media queries to make the website work well on both desktop and mobile screens.
+
+## Project Mockup
+
+[Figma Mockup – Yani Landing Page](https://www.figma.com/design/KR0OYnEHbRUQ1xuHfMJZdL/Yani_LandingPage?node-id=12-2&t=T86vecYaf8VmsiIl-1)
