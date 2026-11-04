@@ -63,6 +63,7 @@ if (container) {
     // Set text content
     title.textContent = item.title;
     description.textContent = item.description;
+    description.classList.add("is-hidden");
     link.textContent = "Learn More";
     link.href = "#about";
 
