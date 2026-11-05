@@ -18,18 +18,25 @@
 - **What does the if/else decide?** If the information is hidden, show it. Otherwise, hide it.
 
 **What changed:**
+Added a Learn More interaction to the Featured Heritage cards. Visitors can expand and hide craft descriptions.
 
 **What was hard, and what I tried:**
+The challenging part was managing the state of each card. I used a let variable and an if/else statement to track which card was open.
 
 **What happened when I tried to break it:**
+I tested clicking Learn More repeatedly, clicking Show Less, and switching between different cards. The interaction worked as expected.
 
 **What I learned or changed my mind about:**
+I learned that JavaScript state can control what users see on a webpage. A small interaction can make the website more useful.
 
 **Question for Joey:**
+How can I improve the accessibility of interactive buttons and expanded content?
 
 **Next week's goal:**
+Improve the website's accessibility and add more interactive features.
 
 **AI use:**
+Used ChatGPT to help me understand JavaScript state and if/else logic.
 
 ## **Instructions**
 
