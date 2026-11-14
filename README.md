@@ -23,7 +23,7 @@
 
 **What was hard, and what I tried:**
 
-**What happened when I tried to break it:**
+**What happened when I tried to break it:** When I opened a second heritage card, the first card automatically closed. I also clicked the same card multiple times to test the open and close behavior. The interaction worked as expected.
 
 **What I learned or changed my mind about:**
 
