@@ -67,7 +67,6 @@ link.setAttribute("aria-expanded", "false");
     description.textContent = item.description;
     description.classList.add("is-hidden");
     link.textContent = "Learn More";
-    link.setAttribute("aria-expanded", "false");
 link.addEventListener("click", (event) => {
 
   if (openCardTitle === item.title) {
