@@ -67,24 +67,28 @@ link.setAttribute("aria-expanded", "false");
     description.textContent = item.description;
     description.classList.add("is-hidden");
     link.textContent = "Learn More";
+    link.setAttribute("aria-expanded", "false");
 link.addEventListener("click", (event) => {
 
   if (openCardTitle === item.title) {
     description.classList.add("is-hidden");
     openCardTitle = null;
     link.textContent = "Learn More";
+    link.setAttribute("aria-expanded", "false");
   } else {
     document.querySelectorAll(".heritage-card p").forEach((paragraph) => {
       paragraph.classList.add("is-hidden");
     });
 
-    document.querySelectorAll(".heritage-card a").forEach((cardLink) => {
-      cardLink.textContent = "Learn More";
-    });
+document.querySelectorAll(".heritage-card button").forEach((cardLink) => {
+  cardLink.textContent = "Learn More";
+  cardLink.setAttribute("aria-expanded", "false");
+});
 
     description.classList.remove("is-hidden");
     openCardTitle = item.title;
     link.textContent = "Show Less";
+    link.setAttribute("aria-expanded", "true");
   }
 });
     // Add an image when a path is available
