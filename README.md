@@ -10,28 +10,35 @@
 
 **Render Plan**
 
-- **User story:** As a visitor, I want to expand and collapse heritage card descriptions so that I can explore traditional Chinese crafts and learn about them at my own pace.
-- **State:** The page remembers the title of the currently open heritage card. It starts at `null`, meaning no card is open.
-- **What changes it:** When a visitor clicks Learn More, the selected card title becomes the state. When the visitor clicks Show Less, the state returns to `null`.
-- **What render() draws:** The Featured Heritage section is rebuilt from the Assignment 6 heritage data array.
-- **The if inside the loop:** For each heritage item, the condition checks whether its title matches `openCardTitle`. If it matches, its description is displayed; otherwise, the description remains hidden.
-- **What else render() works out:** The number of heritage cards displayed, such as "Showing 6 heritage traditions."
+**User story:** As a visitor, I want to expand and collapse heritage card descriptions so that I can explore traditional Chinese crafts and learn about them at my own pace.
+  
+**State:** The page remembers the title of the currently open heritage card. It starts at `null`, meaning no card is open.
+  
+**What changes it:** When a visitor clicks Learn More, the selected card title becomes the state. When the visitor clicks Show Less, the state returns to `null`.
+  
+**What render() draws:** The Featured Heritage section is rebuilt from the Assignment 6 heritage data array.
+  
+**The if inside the loop:** For each heritage item, the condition checks whether its title matches `openCardTitle`. If it matches, its description is displayed; otherwise, the description remains hidden.
+  
+**What else render() works out:** The status message is updated based on `openCardTitle`. It displays a default message when no card is open, or the title of the currently selected heritage tradition.
+  
+**What changed:** I added a `render()` function to rebuild the Featured Heritage section using the `heritageItems` array. The function clears the previous cards, loops through the data, and uses an `if` condition to check which heritage card is currently open.
+I also added a status message that updates based on `openCardTitle`. When no card is open, it displays "Choose a tradition to explore." When a card is open, it displays the title of that tradition.
+The click handler now updates the state and calls `render()` to refresh the page.
 
-**What changed:**
+**Patching vs. rendering:** Patching means changing individual elements directly on the page. Rendering means rebuilding the page based on the current state. In this project, I used `render()` to rebuild the Featured Heritage cards and update the status message whenever the state changes. This makes the interface more consistent because the page always reflects the current state.
 
-**Patching vs. rendering:**
-
-**What was hard, and what I tried:**
+**What was hard, and what I tried:** The hardest part was moving the original card-building code into the `render()` function while keeping the click interaction working correctly. At first, I had to make sure the click handler only changed `openCardTitle` and called `render()`, instead of directly changing the page. I tested the interaction by opening and closing cards and switching between different cards to make sure the state and page stayed synchronized.
 
 **What happened when I tried to break it:** When I opened a second heritage card, the first card automatically closed. I also clicked the same card multiple times to test the open and close behavior. The interaction worked as expected.
 
-**What I learned or changed my mind about:**
+**What I learned or changed my mind about:** I learned that rendering is a more organized way to manage interactive interfaces. Instead of manually changing individual elements, I can update the state and let the `render()` function rebuild the page. I also learned how important it is to keep the interface synchronized with the current state.
 
-**Question for Joey:**
+**Question for Joey:** How can I make my `render()` function more efficient as my project grows and includes more interactive features? Is rebuilding the entire section every time a user clicks a button a good approach for a larger project?
 
-**Next week's goal:**
+**Next week's goal:** My goal for next week is to continue improving the interactive features of my cultural heritage website. I want to make the user experience more engaging and accessible while keeping my JavaScript code organized and easy to maintain.
 
-**AI use:**
+**AI use:** I used ChatGPT as a learning and debugging tool while working on this assignment. It helped me understand how JavaScript functions, loops, conditional statements, and the `render()` function work together.
 
 ### Week 8 — November 4, 2026
 
