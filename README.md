@@ -6,6 +6,33 @@
 
 ## Project Log
 
+### Week 9 — November 13, 2026
+
+**Render Plan**
+
+- **User story:** As a visitor, I want to expand and collapse heritage card descriptions so that I can explore traditional Chinese crafts and learn about them at my own pace.
+- **State:** The page remembers the title of the currently open heritage card. It starts at `null`, meaning no card is open.
+- **What changes it:** When a visitor clicks Learn More, the selected card title becomes the state. When the visitor clicks Show Less, the state returns to `null`.
+- **What render() draws:** The Featured Heritage section is rebuilt from the Assignment 6 heritage data array.
+- **The if inside the loop:** For each heritage item, the condition checks whether its title matches `openCardTitle`. If it matches, its description is displayed; otherwise, the description remains hidden.
+- **What else render() works out:** The number of heritage cards displayed, such as "Showing 6 heritage traditions."
+
+**What changed:**
+
+**Patching vs. rendering:**
+
+**What was hard, and what I tried:**
+
+**What happened when I tried to break it:**
+
+**What I learned or changed my mind about:**
+
+**Question for Joey:**
+
+**Next week's goal:**
+
+**AI use:**
+
 ### Week 8 — November 4, 2026
 
 **State Plan**
