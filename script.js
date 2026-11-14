@@ -50,8 +50,11 @@ const container = document.getElementById("heritage-grid");
 // openCardTitle: visitors need to know which craft details are currently open
 let openCardTitle = null;
 
-if (container) {
-  heritageItems.forEach((item) => {
+function render() {
+  if (container) {
+    container.innerHTML = "";
+
+    heritageItems.forEach((item) => {
     // Create the card and its content
     const card = document.createElement("article");
     const title = document.createElement("h3");
@@ -67,30 +70,16 @@ link.setAttribute("aria-expanded", "false");
     description.textContent = item.description;
     description.classList.add("is-hidden");
     link.textContent = "Learn More";
-link.addEventListener("click", (event) => {
-
+link.addEventListener("click", () => {
   if (openCardTitle === item.title) {
-    description.classList.add("is-hidden");
     openCardTitle = null;
-    link.textContent = "Learn More";
-    link.setAttribute("aria-expanded", "false");
   } else {
-    document.querySelectorAll(".heritage-card p").forEach((paragraph) => {
-      paragraph.classList.add("is-hidden");
-    });
-
-document.querySelectorAll(".heritage-card button").forEach((cardLink) => {
-  cardLink.textContent = "Learn More";
-  cardLink.setAttribute("aria-expanded", "false");
-});
-
-    description.classList.remove("is-hidden");
     openCardTitle = item.title;
-    link.textContent = "Show Less";
-    link.setAttribute("aria-expanded", "true");
   }
+
+  render();
 });
-    // Add an image when a path is available
+
     if (item.imageUrl) {
       const image = document.createElement("img");
       image.src = item.imageUrl;
@@ -106,6 +95,10 @@ document.querySelectorAll(".heritage-card button").forEach((cardLink) => {
 
     // Add the completed card to the page
     container.appendChild(card);
-  });
+    });
+  }
 }
+
+render();
+
 console.log("script.js is connected");
