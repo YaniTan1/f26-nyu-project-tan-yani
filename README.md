@@ -11,11 +11,11 @@
 **State Plan**
 
 - **User story:** As a visitor, I want to click Learn More on a heritage card so that I can discover more information about each traditional craft.
-- **What does the page remember?** Whether the additional information is visible or hidden.
-- **What does it start at?** Hidden (false).
-- **What changes it?** The user clicks the Learn More button.
-- **What does the user see?** Additional information appears or disappears.
-- **What does the if/else decide?** If the information is hidden, show it. Otherwise, hide it.
+- **What does the page remember?** The title of the heritage card that is currently open.
+- **What does it start at?** `null`, meaning no card is open.
+- **What changes it?** The user clicks a Learn More or Show Less button.
+- **What does the user see?** The selected card's description appears, while other card descriptions remain hidden.
+- **What does the if/else decide?** If the clicked card is already open, close it. Otherwise, close any other open card and show the selected card's description.
 
 **What changed:**
 Added a Learn More interaction to the Featured Heritage cards. Visitors can expand and hide craft descriptions.
@@ -24,7 +24,7 @@ Added a Learn More interaction to the Featured Heritage cards. Visitors can expa
 The challenging part was managing the state of each card. I used a let variable and an if/else statement to track which card was open.
 
 **What happened when I tried to break it:**
-I tested clicking Learn More repeatedly, clicking Show Less, and switching between different cards. The interaction worked as expected.
+I clicked the same card multiple times and switched between different cards. The open card closed when I opened another card, and the interaction always returned to a sensible state without Console errors. I also tested the buttons using the keyboard.
 
 **What I learned or changed my mind about:**
 I learned that JavaScript state can control what users see on a webpage. A small interaction can make the website more useful.
