@@ -56,7 +56,9 @@ if (container) {
     const card = document.createElement("article");
     const title = document.createElement("h3");
     const description = document.createElement("p");
-    const link = document.createElement("a");
+   const link = document.createElement("button");
+link.type = "button";
+link.setAttribute("aria-expanded", "false");
 
     card.classList.add("heritage-card");
 
@@ -65,9 +67,7 @@ if (container) {
     description.textContent = item.description;
     description.classList.add("is-hidden");
     link.textContent = "Learn More";
-    link.href = "#about";
 link.addEventListener("click", (event) => {
-  event.preventDefault();
 
   if (openCardTitle === item.title) {
     description.classList.add("is-hidden");
