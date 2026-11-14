@@ -53,6 +53,13 @@ let openCardTitle = null;
 
 function render() {
   if (container) {
+    if (status) {
+  if (openCardTitle === null) {
+    status.textContent = "Choose a tradition to explore.";
+  } else {
+    status.textContent = "Currently exploring: " + openCardTitle;
+  }
+}
     container.innerHTML = "";
 
     heritageItems.forEach((item) => {
