@@ -6,6 +6,15 @@
 
 ## Project Log
 
+### Week 10 — November 17, 2026
+
+**Event Plan**
+
+**User story:** As a visitor, I want to search for traditional Chinese crafts by keyword so that I can quickly find heritage traditions that interest me.
+**The event:** An `input` event on the heritage search box. It fits the user's needs because visitors can type or delete keywords and see matching heritage cards update immediately.
+**State:** `searchText` remembers the keyword entered by the visitor. It starts as an empty string (`""`), which means all heritage cards are displayed.
+**My function:** `matchesSearch(item)` answers the question: Does this heritage item's title or description contain the search keyword? It takes one heritage item as its parameter and returns `true` if it matches or `false` if it does not.
+  
 ### Week 9 — November 13, 2026
 
 **Render Plan**
