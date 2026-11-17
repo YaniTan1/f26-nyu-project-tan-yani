@@ -47,10 +47,17 @@ imageUrl: "images/woodwork.png",
 // Find the Featured Heritage container
 const container = document.getElementById("heritage-grid");
 const status = document.getElementById("heritage-status");
+const searchInput = document.getElementById("heritage-search");
+
+let searchText = "";
 
 // openCardTitle: visitors need to know which craft details are currently open
 let openCardTitle = null;
-
+// matchesSearch: checks whether a heritage item matches the search text; returns true or false
+function matchesSearch(item) {
+  const text = (item.title + " " + item.description).toLowerCase();
+  return text.includes(searchText.trim().toLowerCase());
+}
 // render: draws the heritage cards with only the open card's description showing, plus the status message
 function render() {
   if (container) {
@@ -62,8 +69,15 @@ function render() {
   }
 }
     container.innerHTML = "";
+    let shown = 0;
 
     heritageItems.forEach((item) => {
+      if (!matchesSearch(item)) {
+  return;
+}
+      
+      shown++;
+      
     // Create the card and its content
     const card = document.createElement("article");
     const title = document.createElement("h3");
@@ -112,9 +126,18 @@ link.addEventListener("click", () => {
     // Add the completed card to the page
     container.appendChild(card);
     });
+
+    if (shown === 0) {
+  container.textContent = "No traditions found. Try another keyword.";
+}
   }
 }
 
 render();
-
+if (searchInput) {
+  searchInput.addEventListener("input", (event) => {
+    searchText = event.target.value;
+    render();
+  });
+}
 console.log("script.js is connected");
