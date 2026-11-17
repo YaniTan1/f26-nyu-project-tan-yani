@@ -51,6 +51,7 @@ const status = document.getElementById("heritage-status");
 // openCardTitle: visitors need to know which craft details are currently open
 let openCardTitle = null;
 
+// render: draws the heritage cards with only the open card's description showing, plus the status message
 function render() {
   if (container) {
     if (status) {
@@ -91,6 +92,8 @@ link.addEventListener("click", () => {
   }
 
   render();
+  
+  container.querySelectorAll("button")[heritageItems.indexOf(item)].focus();
 });
 
     if (item.imageUrl) {
