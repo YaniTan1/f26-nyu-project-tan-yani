@@ -9,12 +9,41 @@
 ### Week 10 — November 17, 2026
 
 **Event Plan**
+User story: As a visitor, I want to search for traditional Chinese crafts by keyword so that I can quickly find heritage traditions that interest me.
+What changed:
 
 **User story:** As a visitor, I want to search for traditional Chinese crafts by keyword so that I can quickly find heritage traditions that interest me.
+
 **The event:** An `input` event on the heritage search box. It fits the user's needs because visitors can type or delete keywords and see matching heritage cards update immediately.
+
 **State:** `searchText` remembers the keyword entered by the visitor. It starts as an empty string (`""`), which means all heritage cards are displayed.
+
 **My function:** `matchesSearch(item)` answers the question: Does this heritage item's title or description contain the search keyword? It takes one heritage item as its parameter and returns `true` if it matches or `false` if it does not.
-  
+
+**What changed:** 
+I added a search input to the Featured Heritage section. I created a searchText state variable and an input event listener that updates the state whenever the visitor types or deletes text. I also added a matchesSearch(item) function and updated render() to display only matching heritage cards. When no cards match, the page displays a message telling visitors to try another keyword.
+
+**What I learned about events and state:**
+The input event allows the page to respond immediately to user input. The searchText variable remembers the current keyword, and render() uses that state to update the displayed cards. This helped me understand how events, state, functions, and rendering work together.
+
+**What was hard, and what I tried:**
+The most challenging part was connecting the search function to the existing render() function without breaking the heritage card interactions. I also had to adjust the placement of the no-results condition so that it runs after the loop finishes.
+
+**What happened when I tried to break it:**
+I tested the search using bamboo and confirmed that the Bamboo Filament Inlay card appeared. I also searched for LACQUER in uppercase and confirmed that both lacquer-related cards appeared. When I entered xyz123, the cards disappeared and the no-results message appeared. I also tested clearing the search input to restore all six cards.
+
+**What I learned or changed my mind about:**
+I learned that an input event can update the page without requiring a separate search button. I also learned why the search state needs to be updated before calling render().
+
+**Question for Joey:**
+How can I preserve keyboard focus and improve accessibility when a search causes the page to rebuild its cards?
+
+**Next week's goal:**
+My next goal is to improve the visual design and usability of the heritage search feature and continue making the website more accessible.
+
+**AI use:**
+I used ChatGPT to help explain JavaScript events, state, loops, and conditional rendering, and to troubleshoot the search functionality. 
+
 ### Week 9 — November 13, 2026
 
 **Render Plan**
