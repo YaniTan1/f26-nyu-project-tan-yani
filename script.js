@@ -130,6 +130,11 @@ link.addEventListener("click", () => {
     if (shown === 0) {
   container.textContent = "No traditions found. Try another keyword.";
 }
+    if (status && searchText.trim() !== "") {
+  status.textContent = shown === 0
+    ? "No matching traditions."
+    : "Showing " + shown + " matching traditions.";
+}
   }
 }
 
