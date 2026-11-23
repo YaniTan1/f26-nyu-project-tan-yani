@@ -42,42 +42,39 @@ Criterion 3: Users can search for specific intangible cultural heritage crafts
 Maker: Yani
 Tester: Tianyiren
 
-Who the user is (one sentence): A curious user who wants to explore and learn about Chinese intangible cultural heritage but has little prior knowledge of the topic.
+Who the user is (one sentence): A user who is interested in Chinese culture and wants to explore traditional crafts and learn about intangible cultural heritage.
 
 Task 1 (full main story): Find a traditional Chinese craft that interests you and learn more about its cultural background.
   Completed? Yes
   Where they hesitated or got stuck:
-  What they said they expected:
+  What they said they expected: Learn more and show less botton is working.
 
 Task 2: Find a specific intangible cultural heritage craft that you would like to learn about.
   Completed? Yes
   Where they hesitated or got stuck:
-  What they said they expected:
+  What they said they expected: Can see the search button and search what she wants. 
 
 Task 3 (optional): Explore the website and find another heritage item that you find interesting.
   Completed? Yes
   Where they hesitated or got stuck:
-  What they said they expected:
+  What they said they expected: There are different heritage item can see in the website.
 
 Tester's one-line takeaway:
-"The one thing I'd fix first is..."
+"I think the website has a good foundation, and making the navigation a little clearer would make the experience even better."
 
 ---
 
 ### PUNCH LIST
 
 MUST SHIP
-- 
-- 
-- 
+- Ensure the search function works reliably and provides clear feedback when users search for heritage items (Story Audit).
 
 NICE TO HAVE
-- 
-- 
+- Add more visual information or short descriptions to heritage cards to make browsing more engaging.
 
 CUT
-- 
-- 
+- Add more heritage categories and items — prioritize improving the existing experience within the remaining time.
+
 ### Week 10 — November 17, 2026
 
 **Event Plan**
