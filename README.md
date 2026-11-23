@@ -46,17 +46,14 @@ Who the user is (one sentence): A user who is interested in Chinese culture and 
 
 Task 1 (full main story): Find a traditional Chinese craft that interests you and learn more about its cultural background.
   Completed? Yes
-  Where they hesitated or got stuck:
-  What they said they expected: Learn more and show less botton is working.
+  What they said they expected: Learn more and show less button is working. It would be great if there were more explanation.
 
 Task 2: Find a specific intangible cultural heritage craft that you would like to learn about.
   Completed? Yes
-  Where they hesitated or got stuck:
   What they said they expected: Can see the search button and search what she wants. 
 
 Task 3 (optional): Explore the website and find another heritage item that you find interesting.
   Completed? Yes
-  Where they hesitated or got stuck:
   What they said they expected: There are different heritage item can see in the website.
 
 Tester's one-line takeaway:
@@ -67,10 +64,11 @@ Tester's one-line takeaway:
 ### PUNCH LIST
 
 MUST SHIP
-- Ensure the search function works reliably and provides clear feedback when users search for heritage items (Story Audit).
+- Ensure the search function works reliably and provides clear feedback when users search for heritage items.
+- Add more visual information or short descriptions to heritage cards to make browsing more engaging.
 
 NICE TO HAVE
-- Add more visual information or short descriptions to heritage cards to make browsing more engaging.
+- Linking the heritage to a specific product. 
 
 CUT
 - Add more heritage categories and items — prioritize improving the existing experience within the remaining time.
