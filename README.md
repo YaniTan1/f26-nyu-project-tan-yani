@@ -6,6 +6,78 @@
 
 ## Project Log
 
+### Week 11 - Nov 23, 2026
+
+This week's audit focused on evaluating whether the website meets the main user story
+and identifying usability issues through peer user testing.
+
+The audit helped identify areas for improvement in usability, navigation, and
+responsive design. The user test provided insights into how users interact with
+the website without guidance.
+
+---
+
+### USER STORY AUDIT
+
+MAIN STORY: As a user interested in Chinese intangible cultural heritage,
+I want to browse, search, and explore different heritage crafts,
+so that I can learn about their cultural significance and history.
+
+Criterion 1: Users can browse heritage items displayed as cards on the website.
+  Status (✅ / 🟡 / ❌):
+  Notes: Heritage cards are displayed correctly
+
+Criterion 2: Users can click "Learn More" to explore additional information about a heritage item.
+  Status (✅ / 🟡 / ❌):
+  Notes: Learn More interaction works
+
+Criterion 3: Users can search for specific intangible cultural heritage crafts
+  Status (✅ / 🟡 / ❌):
+  Notes: Search works, give results
+
+---
+
+### USER TEST NOTES
+
+Maker: 
+Tester:
+
+Who the user is (one sentence): A curious user who wants to explore and learn about Chinese intangible cultural heritage but has little prior knowledge of the topic.
+
+Task 1 (full main story): Find a traditional Chinese craft that interests you and learn more about its cultural background.
+  Completed? Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Task 2: Find a specific intangible cultural heritage craft that you would like to learn about.
+  Completed? Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Task 3 (optional): Explore the website and find another heritage item that you find interesting.
+  Completed? Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Tester's one-line takeaway:
+"The one thing I'd fix first is..."
+
+---
+
+### PUNCH LIST
+
+MUST SHIP
+- 
+- 
+- 
+
+NICE TO HAVE
+- 
+- 
+
+CUT
+- 
+- 
 ### Week 10 — November 17, 2026
 
 **Event Plan**
