@@ -68,7 +68,8 @@ MUST SHIP
 - Add more visual information or short descriptions to heritage cards to make browsing more engaging.
 
 NICE TO HAVE
-- Linking the heritage to a specific product. 
+- Linking the heritage to a specific product.
+- The map can click and have the heritage on it.
 
 CUT
 - Add more heritage categories and items — prioritize improving the existing experience within the remaining time.
